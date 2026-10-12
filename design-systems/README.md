@@ -19,6 +19,7 @@ Each folder holds one visual style for the same 15-slide investor deck (Sequoia/
 | `neo-brutal` | Cream, thick outlines, hard shadows, colour blocks | Archivo Black, Space Grotesk, Space Mono |
 | `ember-grid` | Swiss grid, orange, stepped colour bars | Archivo Black, Archivo |
 | `daybreak` | Light pastel washes, rising value curve, serif-italic accents | Sora, Inter, Instrument Serif |
+| `daybreak-silk` | Daybreak made sensuous: draped silk ribbons, warm pearl/blush, serif display, grain | Instrument Serif, Inter |
 
 ## Setup (once)
 

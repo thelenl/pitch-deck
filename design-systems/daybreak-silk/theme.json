@@ -1,0 +1,31 @@
+{
+  "name": "Daybreak Silk",
+  "headFontFace": "Instrument Serif",
+  "bodyFontFace": "Inter",
+  "colors": {
+    "dk1": "22152E",
+    "lt1": "FFFFFF",
+    "dk2": "6B5E73",
+    "lt2": "F7F0F4",
+    "accent1": "7B3FE4",
+    "accent2": "D6567E",
+    "accent3": "F2A27A",
+    "accent4": "1E8C73",
+    "accent5": "EDE4EA",
+    "accent6": "E3C8F0",
+    "hlink": "7B3FE4",
+    "folHlink": "6B5E73"
+  },
+  "roles": {
+    "dk1": "plum ink: titles, body text",
+    "lt1": "white: cards",
+    "dk2": "muted plum: secondary text",
+    "lt2": "blush tint: soft panels, TAM",
+    "accent1": "orchid violet: emphasis, eyebrows, key numbers, chart",
+    "accent2": "rose: chart, shadows",
+    "accent3": "apricot: chart",
+    "accent4": "value green: growth figures",
+    "accent5": "warm hairline: card strokes, table rules",
+    "accent6": "light orchid: outlines, dashed connectors, chart"
+  }
+}

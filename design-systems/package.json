@@ -11,7 +11,8 @@
     "build:neo-brutal": "node neo-brutal/build.js",
     "build:ember-grid": "node ember-grid/build.js",
     "build:daybreak": "node daybreak/build.js",
-    "build:all": "for s in template liquid-glass terminal-ledger vault-engraving acid-editorial neo-brutal ember-grid daybreak; do node $s/build.js || exit 1; done"
+    "build:all": "for s in template liquid-glass terminal-ledger vault-engraving acid-editorial neo-brutal ember-grid daybreak daybreak-silk; do node $s/build.js || exit 1; done",
+    "build:daybreak-silk": "node daybreak-silk/build.js"
   },
   "dependencies": {
     "pptxgenjs": "4.0.1"
