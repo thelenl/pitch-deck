@@ -1,0 +1,31 @@
+{
+  "name": "Vault Engraving",
+  "headFontFace": "Fraunces",
+  "bodyFontFace": "IBM Plex Sans",
+  "colors": {
+    "dk1": "0E2A22",
+    "lt1": "F3EBD8",
+    "dk2": "1B3D33",
+    "lt2": "B9C2B0",
+    "accent1": "C9A24B",
+    "accent2": "7FD6C2",
+    "accent3": "E9A6C9",
+    "accent4": "8FA597",
+    "accent5": "2E5A4B",
+    "accent6": "E2C77A",
+    "hlink": "C9A24B",
+    "folHlink": "8FA597"
+  },
+  "roles": {
+    "dk1": "vault green (slide background)",
+    "lt1": "cream (text on vault; certificate cards)",
+    "dk2": "raised card",
+    "lt2": "muted text on dark",
+    "accent1": "gold",
+    "accent2": "holographic mint",
+    "accent3": "holographic pink",
+    "accent4": "sage",
+    "accent5": "hairline / inner frame",
+    "accent6": "light gold"
+  }
+}

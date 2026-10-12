@@ -1,0 +1,19 @@
+{
+  "name": "Neo-Brutal Money",
+  "headFontFace": "Archivo Black",
+  "bodyFontFace": "Space Grotesk",
+  "colors": {
+    "dk1": "000000",
+    "lt1": "FFF8E7",
+    "dk2": "3A3A3A",
+    "lt2": "FFFFFF",
+    "accent1": "5B5BFF",
+    "accent2": "9FE870",
+    "accent3": "FFD400",
+    "accent4": "FF90E8",
+    "accent5": "6B6B6B",
+    "accent6": "FF5C39",
+    "hlink": "5B5BFF",
+    "folHlink": "6B6B6B"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "pitch-deck-design-systems",
+  "private": true,
+  "description": "One folder per deck style. Each builds ../pitch-deck-<style>.pptx from build.js + theme.json.",
+  "scripts": {
+    "build:template": "node template/build.js",
+    "build:liquid-glass": "node liquid-glass/build.js",
+    "build:terminal-ledger": "node terminal-ledger/build.js",
+    "build:vault-engraving": "node vault-engraving/build.js",
+    "build:acid-editorial": "node acid-editorial/build.js",
+    "build:neo-brutal": "node neo-brutal/build.js",
+    "build:ember-grid": "node ember-grid/build.js",
+    "build:daybreak": "node daybreak/build.js",
+    "build:all": "for s in template liquid-glass terminal-ledger vault-engraving acid-editorial neo-brutal ember-grid daybreak; do node $s/build.js || exit 1; done"
+  },
+  "dependencies": {
+    "pptxgenjs": "4.0.1"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Acid Editorial",
+  "headFontFace": "Inter Tight",
+  "bodyFontFace": "Inter",
+  "colors": {
+    "dk1": "0C0A08",
+    "lt1": "F4F2F0",
+    "dk2": "6D6C6B",
+    "lt2": "FFFFFF",
+    "accent1": "E4F222",
+    "accent2": "1A1919",
+    "accent3": "D6D3CF",
+    "accent4": "9A9894",
+    "accent5": "BDBAB5",
+    "accent6": "3D3B39",
+    "hlink": "0C0A08",
+    "folHlink": "6D6C6B"
+  },
+  "roles": {
+    "dk1": "ink",
+    "lt1": "bone",
+    "dk2": "muted text",
+    "lt2": "card white",
+    "accent1": "acid lime",
+    "accent2": "dark panel",
+    "accent3": "hairline",
+    "accent4": "mid gray",
+    "accent5": "light gray",
+    "accent6": "graphite"
+  }
+}

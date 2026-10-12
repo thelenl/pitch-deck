@@ -1,0 +1,19 @@
+{
+  "name": "Liquid Glass",
+  "headFontFace": "Inter Tight",
+  "bodyFontFace": "Inter",
+  "colors": {
+    "dk1": "15151E",
+    "lt1": "FAFAFC",
+    "dk2": "1D1D29",
+    "lt2": "8A8C99",
+    "accent1": "5266EB",
+    "accent2": "C9A99A",
+    "accent3": "B7B6CE",
+    "accent4": "7E8A9E",
+    "accent5": "2C2C3B",
+    "accent6": "9AA6FF",
+    "hlink": "9AA6FF",
+    "folHlink": "B7B6CE"
+  }
+}

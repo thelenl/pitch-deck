@@ -1,0 +1,30 @@
+{
+  "name": "Terminal Ledger",
+  "headFontFace": "Geist Mono",
+  "bodyFontFace": "Geist",
+  "colors": {
+    "dk1": "0A0A0A",
+    "lt1": "EDEDED",
+    "dk2": "2A2A2A",
+    "lt2": "8F8F8F",
+    "accent1": "3DFF8A",
+    "accent2": "FFB000",
+    "accent3": "141414",
+    "accent4": "5C5C5C",
+    "accent5": "1F1F1F",
+    "accent6": "B8FFD3",
+    "hlink": "3DFF8A",
+    "folHlink": "8F8F8F"
+  },
+  "roles": {
+    "dk1": "background",
+    "lt1": "text",
+    "dk2": "hairlines / panes",
+    "lt2": "muted labels",
+    "accent1": "money / up",
+    "accent2": "highlights / warnings",
+    "accent3": "pane fill",
+    "accent4": "dim marks",
+    "accent5": "raised pane"
+  }
+}

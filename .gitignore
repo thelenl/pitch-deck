@@ -1,0 +1,15 @@
+node_modules/
+design-systems/*/preview/
+design-systems/_shared/.fontcache/
+
+# LibreOffice / Office lock files
+.~lock.*#
+~$*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
+__pycache__/

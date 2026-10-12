@@ -1,0 +1,19 @@
+{
+  "name": "Daybreak",
+  "headFontFace": "Sora",
+  "bodyFontFace": "Inter",
+  "colors": {
+    "dk1": "0E1430",
+    "lt1": "FFFFFF",
+    "dk2": "5A6380",
+    "lt2": "F3F2FF",
+    "accent1": "5B4BFF",
+    "accent2": "3BA7FF",
+    "accent3": "2FCFA4",
+    "accent4": "08876A",
+    "accent5": "E3E7F2",
+    "accent6": "C9B8FF",
+    "hlink": "5B4BFF",
+    "folHlink": "5A6380"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Ember Grid",
+  "headFontFace": "Archivo Black",
+  "bodyFontFace": "Archivo",
+  "colors": {
+    "dk1": "111111",
+    "lt1": "FFFFFF",
+    "dk2": "5E5A55",
+    "lt2": "F4F3F0",
+    "accent1": "FA520F",
+    "accent2": "FFA110",
+    "accent3": "FFD900",
+    "accent4": "9A958E",
+    "accent5": "E9E6E1",
+    "accent6": "2A2A2A",
+    "hlink": "FA520F",
+    "folHlink": "9A958E"
+  }
+}
