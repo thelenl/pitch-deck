@@ -1,0 +1,31 @@
+{
+  "name": "Daybreak Metallic",
+  "headFontFace": "Instrument Serif",
+  "bodyFontFace": "Inter",
+  "colors": {
+    "dk1": "22152E",
+    "lt1": "FFFFFF",
+    "dk2": "6B5E73",
+    "lt2": "F7F1F0",
+    "accent1": "7B3FE4",
+    "accent2": "B5487A",
+    "accent3": "D9A08F",
+    "accent4": "1E8C73",
+    "accent5": "E8DCDF",
+    "accent6": "F3DCC4",
+    "hlink": "7B3FE4",
+    "folHlink": "6B5E73"
+  },
+  "roles": {
+    "dk1": "plum ink: titles, body text, table header, raise chip",
+    "lt1": "white: cards; text on dark panels",
+    "dk2": "muted plum: secondary text",
+    "lt2": "porcelain blush: page colour (matches the art)",
+    "accent1": "orchid violet: emphasis on light, eyebrows, chart",
+    "accent2": "deep rose: chart",
+    "accent3": "rose gold: emphasis + labels on dark, connectors, rings",
+    "accent4": "value green: growth figures on light",
+    "accent5": "warm hairline: card strokes, table rules",
+    "accent6": "champagne: secondary text on dark panels"
+  }
+}

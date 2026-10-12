@@ -20,6 +20,7 @@ Each folder holds one visual style for the same 15-slide investor deck (Sequoia/
 | `ember-grid` | Swiss grid, orange, stepped colour bars | Archivo Black, Archivo |
 | `daybreak` | Light pastel washes, rising value curve, serif-italic accents | Sora, Inter, Instrument Serif |
 | `daybreak-silk` | Daybreak made sensuous: draped silk ribbons, warm pearl/blush, serif display, grain | Instrument Serif, Inter |
+| `daybreak-metallic` | Silk made metallic: liquid-metal ribbons, dark plum split panels, chrome spheres, fuller layouts | Instrument Serif, Inter |
 
 ## Setup (once)
 
@@ -52,6 +53,6 @@ This needs LibreOffice and `pdftoppm`. It renders with the fonts in `../fonts` t
 
 - **Palette or fonts:** edit `theme.json`, then also edit the hard-coded hexes listed under "Off-theme colours" in that style's `DESIGN.md`.
 - **Art:** tweak the style's `.py` generator, rerun it from inside the folder, then rebuild.
-- **Content:** placeholder text and speaker notes are written out in each `build.js`. `ember-grid` and `vault-engraving` read their notes from `template/build.js`, so edit the notes there.
+- **Content:** placeholder text and speaker notes are written out in each `build.js`. `ember-grid`, `vault-engraving` and `daybreak-metallic` read their notes from `template/build.js`, so edit the notes there.
 - **New style:** copy the closest folder, rename it, edit `theme.json` and the helpers, add a `build:<name>` script to `package.json`, and write its `DESIGN.md`.
 - **pptxgenjs gotchas:** hex colours never take a `#`. Never reuse an options or shadow object across two calls, because pptxgenjs mutates them. Gradients and glows have to be images. Check results with `_shared/preview.sh`.

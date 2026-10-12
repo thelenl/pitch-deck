@@ -5,7 +5,7 @@ This is the investor pitch deck for a fintech + AI startup. The decks are **gene
 ## Status (update this section as decisions are made)
 
 - **Content:** 15-slide skeleton following the Sequoia/YC flow. All copy is still `[bracketed placeholders]`. Speaker notes on every slide explain what investors look for there.
-- **Style:** leaning towards the Daybreak family. The user liked `daybreak` best (built for "innovation", "value creation", "the light airiness of AI" and "future-forward tech") and asked for it to be "more sensuous", which produced `daybreak-silk`. Treat `daybreak-silk` as the current front-runner unless told otherwise. The other styles are kept for reference.
+- **Style:** leaning towards the Daybreak family. The user liked `daybreak` best (built for "innovation", "value creation", "the light airiness of AI" and "future-forward tech") and asked for it to be "more sensuous", which produced `daybreak-silk`. The user then asked for "more metallic, less generic, less whitespace" and wanted the result kept as a separate style, `daybreak-metallic`, alongside `daybreak-silk`. Treat those two as the front-runners unless told otherwise. The other styles are kept for reference.
 - **Pending:** the founders want a change to the team slide (slide 11, "10 · TEAM"). The specifics haven't been given, so ask before changing it.
 - `pitch-deck-template.pptx` is the original baseline. Keep its design as is unless told otherwise.
 
@@ -21,7 +21,7 @@ design-systems/
 fonts/<Family>/              Google Fonts (OFL) used by the styles; static/ = per-weight files
 ```
 
-Styles: `template`, `liquid-glass`, `terminal-ledger`, `vault-engraving`, `acid-editorial`, `neo-brutal`, `ember-grid`, `daybreak` and `daybreak-silk`. Each one's `DESIGN.md` is the design system: palette roles, off-theme hexes, type scale, layouts, helper components, art, a slide-by-slide breakdown and recipes. **Read the style's DESIGN.md before editing its build.js.**
+Styles: `template`, `liquid-glass`, `terminal-ledger`, `vault-engraving`, `acid-editorial`, `neo-brutal`, `ember-grid`, `daybreak`, `daybreak-silk` and `daybreak-metallic`. Each one's `DESIGN.md` is the design system: palette roles, off-theme hexes, type scale, layouts, helper components, art, a slide-by-slide breakdown and recipes. **Read the style's DESIGN.md before editing its build.js.**
 
 ## Commands (run from `design-systems/`)
 
@@ -41,7 +41,7 @@ python3 <style>/<art>.py             # regenerate a style's art (needs pillow, n
 2. **Content changes usually touch every style.** Slide copy and placeholders are duplicated in each `build.js`. Speaker notes live in different places depending on the style:
    - `template`, `liquid-glass`, `neo-brutal`, `daybreak`, `daybreak-silk`: inline in `build.js`.
    - `acid-editorial`, `terminal-ledger`: in their own `notes.json`.
-   - `ember-grid`, `vault-engraving`: read from `template/build.js`, so edit them there.
+   - `ember-grid`, `vault-engraving`, `daybreak-metallic`: read from `template/build.js`, so edit them there.
 
    If the user has chosen a single style, only change that one, and say so.
 3. **Palette and fonts:** edit `theme.json`, then the "Off-theme colours" listed in that style's `DESIGN.md` (hard-coded hexes in `build.js` and the art scripts).
